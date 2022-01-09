@@ -1,0 +1,145 @@
+* {margin: 0; padding: 0;}
+p {margin-top: 20px; font-size: 20px; text-align: justify; text-align-last: center; margin-left: 30px; margin-right: 30px; margin-bottom: 10px;}
+p, a {font-family: 'Noto';}
+h1 {margin-top: 10px; margin-bottom: 30px; font-size: 50px; font-family: 'Play'; color: #FFEBC9;}
+
+/* FONTES */
+@font-face {
+    src: url("fonts/Playball-Regular.ttf");
+    font-family: 'Play';    
+    font-weight: normal;}
+
+@font-face {
+    src: url("fonts/NotoSans-Regular.ttf");
+    font-family: 'Noto';    
+    font-weight: normal;}    
+
+/* CABEÇALHO */
+nav {width: 100%;height: 550px ;background-image: url("imagens/foto_principal.lnk"); background-size: 100% 100%;
+background-repeat: no-repeat; display: flex;justify-content:flex-end;}
+  
+nav dl {display: flex; flex-direction: row; margin-top: 40px;}
+nav dl dt a {margin-right: 13px; font-size: 25px; color: #FFEBC9;}
+nav a{text-decoration: none;}
+nav a:hover{color: #753422;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	nav {height: 400px; justify-content: center;}
+	nav dl {margin-top: 0;background-color: #E0C097; height: 25px; width: 100%; justify-content: center;}
+	nav dl dt a {color: #2D2424; font-size: 17px;}
+}
+
+@media (max-width: 600px) {
+	nav {height: 300px;}
+	nav dl dt a {font-size: 15px;}
+}
+
+/* SECTION E ARTICLES */
+section article {width: 100%;}
+
+/* APRESENTA */
+.apresenta {display: flex; justify-content: center; background-color: #FFEBC9; height: 150px;}
+.apresenta p {color: #753422; text-align: justify; text-align-last: center; margin-left: 30px; margin-right: 30px;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	.apresenta p {font-size: 15px;}
+}
+
+@media (max-width: 600px) {
+	.apresenta p {font-size: 12px;}
+}
+
+/* TIPOS */
+.tipos {height: 350px; background-image:url("imagens/foto_tipos_desfocada.jpg"); background-size: 100% 100%; background-repeat: no-repeat; display: flex; flex-direction: column; align-items: center;}
+.tipos p {color: #FFEBC9;}
+.tipos .texto {position: relative;}
+.tipos .texto .cor_fundo {background-color: #753422; width: 97%; height: 100%; opacity: 40%; position: absolute; top: 0; left: 0; margin-left: 30px; border-radius: 10px;}
+.tipos button {border-radius: 20px; width: 150px; height: 40px; font-size: 23px;background-color: #D79771; color: #E0C097; margin-top: 25px;}
+.tipos button:hover {background-color: #753422;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	.tipos h1 {margin-bottom: 10px;}
+	.tipos p {font-size: 15px;}
+	.tipos .texto {margin-right: 20px;}
+	.tipos button {margin-top: 20px;} 
+}
+
+@media (max-width: 600px) {
+	.tipos h1 {margin-bottom: 10px;}
+	.tipos p {font-size: 12px;}
+	.tipos .texto {margin-right: 30px;}
+	.tipos button {margin-top: 10px;} 
+}
+
+/* AGENDAMENTO */
+.agendamento {display: flex; flex-direction: column; align-items: center; background-color: #753422; height: 220px;}
+.agendamento h1 {margin-bottom: 5px;}
+.agendamento p {color: #FFEBC9}
+.agendamento button {border-radius: 20px; width: 150px; height: 40px; font-size: 23px;background-color: #D79771; color: #E0C097; margin-top: 25px;}
+.agendamento button:hover {background-color: #753422;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	.agendamento p {font-size: 15px;}
+}
+
+@media (max-width: 600px) {
+	.agendamento {height: 230px;}
+}
+
+/* SOBRE NÓS */
+.sobre_nos {height: 300px; background-image: url("imagens/foto_sobre_desfocada.png"); background-size: 100% 100%; background-repeat: no-repeat;  ; display: flex; flex-direction: column; align-items: center;}
+.sobre_nos p {color: #FFEBC9;}
+.sobre_nos .texto {position: relative;}
+.sobre_nos .texto .cor_fundo {background-color: #753422; width: 97%; height: 100%; opacity: 40%; position: absolute; top: 0; left: 0; margin-left: 30px; border-radius: 10px;}
+.sobre_nos button {border-radius: 20px; width: 150px; height: 40px; font-size: 23px;background-color: #D79771; color: #E0C097; margin-top: 30px;}
+.sobre_nos button:hover {background-color: #753422;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	.sobre_nos {height: 270px;}
+	.sobre_nos h1 {margin-bottom: 10px;}
+	.sobre_nos p {font-size: 15px;}
+	.sobre_nos .texto {margin-right: 20px;}
+	.sobre_nos button {margin-top: 30px;} 
+}
+
+@media (max-width: 600px) {
+	.sobre_nos {height: 250px;}
+	.sobre_nos h1 {margin-bottom: 10px;}
+	.sobre_nos p {font-size: 12px;}
+	.sobre_nos .texto {margin-right: 30px;}
+	.sobre_nos button {margin-top: 10px;} 
+}
+
+/* CONTATOS */
+.contatos {display: flex; flex-direction: column; align-items: center; background-color: #B05B3B; height: 220px;}
+.contatos h1 {margin-bottom: 5px;}
+.contatos p {color: #FFEBC9}
+.contatos button {border-radius: 20px; width: 150px; height: 40px; font-size: 23px;background-color: #D79771; color: #E0C097; margin-top: 25px;}
+.contatos button:hover {background-color: #753422;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	.contatos p {font-size: 15px;}
+	.contatos {height: 250px;}
+	
+}
+@media (max-width: 600px) {
+	.contatos {height: 250px;}
+}
+
+/* RODAPÉ */
+footer {display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
+footer img {width: 100px; height: 70px; margin-right: 470px; margin-left: 70px;}
+footer .texto_final {margin-left: -100px;}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+	footer {justify-content: flex-start; font-size: 10px;}
+	footer img { margin-right: 150px; font-size: 10px;}
+	footer .texto_final {margin-left: -85px;}
+}

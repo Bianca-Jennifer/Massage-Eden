@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Massage Eden</title>
+		<link rel="stylesheet" type="text/css" href="style_pags/agendamento_style.css">
+		<meta charset="utf-8">
+
+	</head>
+
+	<body>
+		<nav>
+			<dl>
+				<dt><a href="../main.html">Início</a></dt>
+				<dt><a href="tipos.html">Tipos</a></dt>
+				<dt><a href="agendamento.html">Agendamento</a></dt>
+				<dt><a href="sobre_nos.html">Sobre Nós</a></dt>
+				<dt><a href="contatos.html">Contatos</a></dt>
+			</dl>
+			
+		</nav>
+
+		<section class="agendamento">
+			<form action="" method="post">
+      			Nome Completo <br>
+      			<input type="text" name="nome" size="150" required autofocus class="nome_completo"><br> <br>
+
+     			Endereço de E-mail <br>
+      			<input type="email" name="email" size="50" autocomplete="on"><br> <br>
+
+      			Telefone <br>
+      			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br> <br>
+
+      			Opções de Massagens <br>
+      			<input type="checkbox" name="checkbox massagens" value="Sueca">Sueca-R$ 20,00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      			<input type="checkbox" name="checkbox massagens" value="Em_Cadeira">Em Cadeira-R$ 50,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Aromaterapia">Aromaterapia-R$ 40,00 &nbsp;&nbsp;&nbsp;&nbsp;
+      			<input type="checkbox" name="checkbox massagens" value="Shantala">Shantala-R$ 50,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Profunda">Profunda-R$ 40,00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      			<input type="checkbox" name="checkbox massagens" value="Tantrica">Tântrica-R$ 80,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Esportiva">Esportiva-R$ 60,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Ponto_Gatilho">Ponto Gatilho-R$ 60,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Shiatsu">Shiatsu-R$ 70,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Tailandesa">Tailandesa-R$ 70,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="Pre_Natal">Pré Natal-R$ 30,00<br>
+      			<input type="checkbox" name="checkbox massagens" value="De Casal">De Casal-R$ 80,00<br> <br>
+
+      			Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Horário<br>
+      			<input type="date" name="data" min="2003-10-03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      			<select name="horario">
+        			<optgroup label="Horário para escolher">
+          				<option value="Manha"selected>Manhã</option>
+          				<option value="Tarde">Tarde</option>
+          				<option value="Noite">Noite</option>
+          			</optgroup>
+      			</select><br> <br>
+
+      			Informações Adicionais<br>
+      			<textarea name="mensagem" rows="10" cols="50" spellcheck="false"></textarea><br>
+
+      			<input type="submit" name="btn_enviar" value="Enviar" class="btn_enviar">
+			</form>
+			
+		</section>
+
+		<footer>
+			<img src="../imagens/logo.jpg">
+
+			<dl>
+				<dt >Massage Eden/desde 1998</dt>
+				<dt class="texto_final">Criado por: Bianca Jennifer, José Diego e Marilia Gabriela</dt>
+			</dl>
+		</footer>
+
+
+		
+	</body>
+</html>
