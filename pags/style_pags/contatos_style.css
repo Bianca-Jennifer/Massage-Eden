@@ -20,8 +20,8 @@ nav a:hover{color: #753422;}
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
     nav {height: 400px; justify-content: center;}
-    nav dl {margin-top: 0;background-color: #E0C097; height: 25px; width: 100%; justify-content: center;}
-    nav dl dt a {color: #2D2424; font-size: 17px;}
+    nav dl {margin-top: 0;background-color: #FFEBC9; height: 25px; width: 100%; justify-content: center;}
+    nav dl dt a {color: #B05B3B; font-size: 17px;}
 }
 
 @media (max-width: 600px) {
