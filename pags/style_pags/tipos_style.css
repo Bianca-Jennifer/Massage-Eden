@@ -31,12 +31,12 @@ nav a:hover{color: #753422;}
 }
 
 /* TIPOS  */
-.tipos {width: 100%; background-color: #FFEBC9;}
+.tipos {width: 100%; background-color: #FFEBC9; padding-top: 10px; padding-bottom: 10px;}
 .tipos dl {margin-left: 30px; font-family: 'Noto'; color: #753422;}
 .tipos dl dd {margin-left: 10px;}
 
 /* RODAPÉ  */
-footer {display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
+footer {padding-top: 10px; padding-bottom: 10px; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
 footer img {width: 100px; height: 70px; margin-right: 470px; margin-left: 70px;}
 footer .texto_final {margin-left: -100px;}
 

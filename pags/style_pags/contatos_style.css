@@ -30,12 +30,12 @@ nav a:hover{color: #753422;}
 }
 
 /* CONTATOS */
-.contatos {width: 100%; font-family: 'Noto'; color: #753422; background-color: #FFEBC9;}
+.contatos {padding-top: 10px; padding-bottom: 10px; width: 100%; font-family: 'Noto'; color: #753422; background-color: #FFEBC9;}
 .contatos i {color: #753422; margin-left: 40px;}
 .contatos .segunda_parte {margin-left: 60px;}
 
 /* RODAPÉ */
-footer {display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
+footer {padding-top: 10px; padding-bottom: 10px; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
 footer p {margin-top: 20px; font-size: 20px; text-align: justify; text-align-last: center; margin-left: 30px; margin-right: 30px; margin-bottom: 10px;}
 footer img {width: 100px; height: 70px; margin-right: 470px; margin-left: 70px;}
 footer .texto_final {margin-left: -100px;}

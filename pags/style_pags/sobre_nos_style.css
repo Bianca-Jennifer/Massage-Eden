@@ -31,11 +31,15 @@ nav a:hover{color: #753422;}
 }
 
 /* SOBRE NÓS  */
-.sobre_nos {width: 100%; background-color: #FFEBC9; font-family: 'Noto'; color: #753422;}
+.sobre_nos {padding-top: 10px; padding-bottom: 10px; width: 100%; background-color: #FFEBC9; font-family: 'Noto'; color: #753422;}
 
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .sobre_nos p {font-size: 15px;}
+}
 
 /* RODAPÉ  */
-footer {display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
+footer {padding-top: 10px; padding-bottom: 10px; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
 footer img {width: 100px; height: 70px; margin-right: 470px; margin-left: 70px;}
 footer .texto_final {margin-left: -100px;}
 

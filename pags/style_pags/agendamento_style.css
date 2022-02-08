@@ -31,7 +31,7 @@ nav a:hover{color: #753422;}
 }
 
 /* AGENDAMENTO */
-.agendamento {background-color:#FFEBC9; color: #753422;}
+.agendamento {background-color:#FFEBC9; color: #753422; padding-top: 10px; padding-bottom: 10px;}
 .agendamento form {margin-left: 40px;}
 .agendamento form input {border-radius: 20px; background-color: #D79771; }
 .agendamento form .btn_enviar {margin-left: 180px; margin-top: 10px; width: 50px; color: #FFEBC9; margin-bottom: 5px;}
@@ -39,12 +39,13 @@ nav a:hover{color: #753422;}
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
     .agendamento form .nome_completo {width: 350px;}
+    .agendamento form .email {width: 250px;}
     .agendamento form textarea {width: 200px;}
-    .agendamento form .btn_enviar {margin-left: 90px;zfxzxz}
+    .agendamento form .btn_enviar {margin-left: 90px;}
 }
 
 /* RODAPÉ  */
-footer {display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
+footer {padding-top: 10px; padding-bottom: 10px; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; background-color: #D79771; color: #753422;}
 footer img {width: 100px; height: 70px; margin-right: 470px; margin-left: 70px;}
 footer .texto_final {margin-left: -100px;}
 
